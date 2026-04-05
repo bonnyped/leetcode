@@ -1,3 +1,3 @@
 module Valid_Anagram
 
-go 1.26
+go 1.25

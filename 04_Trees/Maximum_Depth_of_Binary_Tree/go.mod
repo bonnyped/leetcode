@@ -1,3 +1,3 @@
 module Maximum_Depth_of_Binary_Tree
 
-go 1.26
+go 1.25

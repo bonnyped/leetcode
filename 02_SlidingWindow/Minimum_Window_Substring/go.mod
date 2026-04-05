@@ -1,3 +1,3 @@
 module Minimum_Window_Substring
 
-go 1.26
+go 1.25

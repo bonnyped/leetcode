@@ -1,3 +1,3 @@
 module Trapping_Rain_Water
 
-go 1.26
+go 1.25

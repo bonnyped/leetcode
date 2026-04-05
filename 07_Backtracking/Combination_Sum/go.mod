@@ -1,3 +1,3 @@
 module Combination_Sum
 
-go 1.26
+go 1.25

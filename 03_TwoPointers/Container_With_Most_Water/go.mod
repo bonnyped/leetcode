@@ -1,3 +1,3 @@
 module Container_With_Most_Water
 
-go 1.26
+go 1.25

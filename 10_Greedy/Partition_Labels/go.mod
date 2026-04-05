@@ -1,3 +1,3 @@
 module Partition_Labels
 
-go 1.26
+go 1.25

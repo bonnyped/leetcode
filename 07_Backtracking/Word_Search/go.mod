@@ -1,3 +1,3 @@
 module Word_Search
 
-go 1.26
+go 1.25

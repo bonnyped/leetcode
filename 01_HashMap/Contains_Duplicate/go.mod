@@ -1,3 +1,3 @@
 module Contains_Duplicate
 
-go 1.26
+go 1.25

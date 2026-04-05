@@ -1,3 +1,3 @@
 module Move_Zeroes
 
-go 1.26
+go 1.25

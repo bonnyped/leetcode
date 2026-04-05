@@ -1,3 +1,3 @@
 module Range_Sum_Query_Immutable
 
-go 1.26
+go 1.25

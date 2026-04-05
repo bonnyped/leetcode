@@ -1,3 +1,3 @@
 module Coin_Change
 
-go 1.26
+go 1.25
