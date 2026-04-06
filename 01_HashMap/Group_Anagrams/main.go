@@ -1,8 +1,45 @@
 package main
 
-import "maps"
+import (
+	"sort"
+)
+
+func groupAnagrams(strs []string) [][]string {
+	sortedStrs := make(map[string][]string)
+
+	for _, str := range strs {
+		sortedStr := sortString(str)
+		sortedStrs[sortedStr] = append(sortedStrs[sortedStr], str)
+	}
+
+	return mergedStrs(sortedStrs)
+}
+
+func mergedStrs(sortedStrs map[string][]string) [][]string {
+	result := make([][]string, len(sortedStrs))
+	idx := 0
+
+	for _, value := range sortedStrs {
+		result[idx] = append(result[idx], value...)
+		idx++
+	}
+
+	return result
+}
+
+func sortString(str string) string {
+	runes := []rune(str)
+
+	sort.Slice(runes, func(i, j int) bool {
+		return runes[i] < runes[j]
+	})
+
+	return string(runes)
+}
 
 // первое решение
+import "maps"
+
 type word struct {
 	dic  map[byte]int
 	strs []string
