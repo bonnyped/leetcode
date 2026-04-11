@@ -5,7 +5,7 @@ import (
 )
 
 func frequencySort(s string) string {
-	charMap := make(map[byte]int)
+	charMap := make([]int, 128)
 	res := []byte(s)
 
 	for _, b := range res {
