@@ -17,3 +17,5 @@ func maxProfit(prices []int) int {
 
 	return profit
 }
+
+// 100, 200, 10, 190
