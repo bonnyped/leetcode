@@ -12,7 +12,7 @@ func TestMaxProfitII(t *testing.T) {
 		{[]int{7, 6, 4, 3, 1}, 0},
 		{[]int{15, 17, 0, 1, 0, 5}, 8},
 		{[]int{1, 10, 9, 20}, 20},
-		{[]int{2}, 2},
+		{[]int{2}, 0},
 		{[]int{30, 32, 100, 129}, 99},
 	}
 	for _, tt := range tests {
